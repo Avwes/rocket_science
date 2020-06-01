@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html> // This is project to calculate the required Oxygen for two astronauts NASA is sending to Mars
+	<head>
+		<title>Rocket Science</title>
+		<style type="text/css">
+			body{
+				color:green;
+				background-color:black;
+			}
+		</style>
+	</head>
+	<body>
+		<script type="text/javascript">
+			document.write("Good Day Scientist, hope we are ready for a Mars trip")
+		//Parameters required for this trip. Distance from Mars to Earth is approximated at 55million KM. Our spacecraft travels at 1000hr/km and 1ltr of our compressed oxygen can last 12hrs. It is worthy to note that a day in Mars is made up of 25hrs and it takes the planet 687days to complete a year cycle.
+			var d = 55000000;
+			var v = 1000;
+			t1 = d/v;
+			var t1 = d/v;
+			document.write("Time to Mars is="+"t"+"hours"); //t1 = 55,000hrs
+			document.write("<br>");
+			document.write("<br>");
+		//To calculate how long it will take the astronauts to return, multiply t by 2
+		//To ascertain the litres of Oxygen needed, divide total hours 110000 by 12hours
+		//let oxygen be = X
+			 var x = 110000/12
+			 document.write("litres of oxygen required ="+"x"+"hours");
+			 document.write("<br>");
+			 document.write("<br>");
+		//for two astronauts, d = x*2
+				x = 4583
+				result = x * 2
+				console.log(result," when x = 4583")
+		</script>
+	</body>
+</html>
